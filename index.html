@@ -1,0 +1,877 @@
+<DOCTYPE html>
+    <html>
+    
+    <head><!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153161356-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-153161356-1');
+    </script>
+    
+     
+        <meta charset="utf-8">
+        <title>Study tools</title>
+        <link rel="stylesheet" type="text/css" href="dormstyle.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <main class="main">
+       
+    
+    <div id="main">
+    <Title>ful gpa Calculator.</title>
+    <head><h1 style="font-family:agency fb">G.P.A CALCULATOR</h1>
+    
+    </head>
+    
+    <div id="print">
+    <h2>Welcome</h2>
+    <p><h4>We Would Like To Know Your Name</h4></p>
+    <p><input  type="text" placeholder="ENTER NAME" id="name"value=""  style="height:40; font-size:25px;" ><BR><P>
+    <SELECT id="year">
+    <option value="100">100 LEVEL</option>
+    <option value="200">200 LEVEL</option>
+    <option value="300">300 LEVEL</option>
+    <option value="400">400 LEVEL</option>
+    </SELECT>
+    <SELECT id="dept">
+    <option value="20">COMPUTER SCI</option>
+    <option value="24">BIOLOGY</option>
+    <option value="23">CHEMISTRY</option>
+    <option value="">MATHEMATICS</option>
+    <option value="22">STATISTICS</option>
+    <option value="24">GEOLOGY</option>
+    <option value="23">PHYSICS</option>
+    <option value="19">POLITICAL SCIENCE</option>
+    <option value="">ECONOMICS</option>
+    <option value="">GEOGRAPHY</option>
+    <option value="">HISTORY AND INTL. RELATIONS</option>
+    <option value="">ENGLISH AND LITERARY STUD.</option>
+    
+    
+    
+    </SELECT>
+    <SELECT id="sem">
+    <option value="1stsem">1ST SEMESTER</option>
+    <option value="2ndsem">2ND SEMESTER</option>
+    </SELECT><P>
+    
+    <input type="checkbox" id="sci" name="chh" >SCIENCE<input type="checkbox" id="art" name="chh" >ART AND SOCIAL SCI.
+    
+    
+    <br><button type="button" onclick="myfunction()"> DONE </button>
+    
+    </div>
+    
+    <div id="courses2">
+    
+    <div id="hello"></div>
+    
+    <h4>Select Your Assumed Grades</h4><p>
+    <input type="checkbox" value="2" id="gst103" name="gA">GST103 <select id="selectgst103">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    
+    <input type="checkbox" value="2" id="gst107" name="hA">GST107 <select id="selectgst107">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select><p>
+    
+    <input type="checkbox" value="2" id="gst101" name="lA">GST101 <select id="selectgst101">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    
+    <input type="checkbox" value="3" id="pos101" name="iA">POS101 <select id="selectpos101">
+    <option value="5">A</option>
+     <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </BR>
+    </select><p>
+    <input type="checkbox" value="3" id="pos103" name="jA">POS103<select id="selectpos103">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    <input type="checkbox" value="2" id="pos105" name="kA">POS105 <select id="selectpos105">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select><p>
+    
+    
+    <input type="checkbox" value="3" id="soc101" name="nA">SOC 101 <select id="selectsoc101">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <p>
+    
+    <input type="checkbox" value="3" id="his101" name="">HIS 101 <select id="selecthis101">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <p>
+    
+    <input type="checkbox" value="3" id="his103" name="">HIS 103 <select id="selecthis103">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <p>
+    
+    <input type="checkbox" value="3" id="his105" name="">HIS 105 <select id="selecthis105">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <p>
+    
+    <input type="checkbox" value="3" id="his109" name="">HIS 109 <select id="selecthis109">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <p>
+    
+    
+    <input type="checkbox" value="3" id="his111" name="">HIS 111 <select id="selecthis111">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <p>
+    
+    
+    <input type="checkbox" value="2" id="eco101" name="oA">ECO101 <select id="selecteco101">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <br ><br>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <button type="button" onclick="myfunction2()"> DONE
+    </button> <p>
+    </div>
+    
+    <div id="courses"> 
+    <div id="hello"></div>
+    <h4>Select Your Assumed Grades</h4><p>
+    <input type="checkbox" value="3" id="mth111"  name="a">MTH111 <select id="selectmth111" >
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    <input type="checkbox" value="2" id="phy111" name="b">PHY111 <select id="selectphy111">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select> 
+    <p>
+    <input type="checkbox" value="2" id="csc101" name="c">CSC101 <select id="selectcsc101">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    <input type="checkbox" value="1" id="chm161" name="d">CHM161 <select id="selectchm161">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    
+    <p>
+    <input type="checkbox" value="2" id="bio111" name="e">BIO111 <select id="selectbio111">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    <input type="checkbox" value="2" id="g1st103" name="g">GST103 <select id="s1electgst103">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    
+    <input type="checkbox" value="2" id="g1st107" name="h">GST107 <select id="s1electgst107">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    <input type="checkbox" value="3" id="mth113" name="i">MTH113 <select id="selectmth113">
+    <option value="5">A</option>
+     <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select><p>
+    <input type="checkbox" value="2" id="phy131" name="j">PHY131 <select id="selectphy131">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    <input type="checkbox" value="1" id="phy161" name="k">PHY161 <select id="selectphy161">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select><p>
+    
+    <input type="checkbox" value="2" id="g1st101" name="l">GST101 <select id="s1electgst101">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select>
+    <p>
+    <input type="checkbox" value="3" id="chm113" name="m">CHM113 <select id="selectchm113">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <br ><br>
+    
+    <input type="checkbox" value="3" id="s1oc101" name="n">SOC 101 <select id="s1electsoc101">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    
+    <p>
+    <input type="checkbox" value="2" id="e1co101" name="o">ECO101 <select id="s1electeco101">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <br ><br>
+    
+    <input type="checkbox" value="3" id="sta111" name="p">STA111 <select id="selectsta111">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <p>
+    <input type="checkbox" value="2" id="bio113" name="q">BIO113 <select id="selectbio113">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <br ><br>
+    
+    <input type="checkbox" value="2" id="gey101" name="r">GEY1O1 <select id="selectgey101">
+    <option value="5">A</option>
+    <option value="4">B</option>
+    <option value="3">C</option>
+    <option value="2">D</option>
+    <option value="1">E</option>
+    <option value="0">F</option>
+    </select></input>
+    <br ><br>
+    
+    
+    
+    
+    <button type="button" onclick="myfunction2()"> DONE
+    </button> <p>
+        
+    
+    </div><P><P><P><P>
+    
+    
+    
+    <div id="go"><div id="to"></div><h3>Thank You For Using This Applet please Rate Us
+    <span id="i1" class="fa fa-star"></span>
+    <span id="i2" class="fa fa-star checked"></span>
+    <span id="i3"class="fa fa-star"></span>
+    <span id="i4" class="fa fa-star"></span>
+    <span id="i5" class="fa fa-star"></span>
+    <P> <div id="rat"></div>y<BUTTON onclick="functionsend()">SEND</BUTTON><P><br>.</div>
+    </div>
+    
+    
+    <div id="about"><h3>GPA CALCULATOR <H3> <button id="close" class="mybutton" style="font size:50px; text-align:centre; cursor:pointer" onclick="myfunctionc()" >X</button><div id="text">Have you ever wondered why you could all of a sudden remember the answers to questions you were given in an exam after you came out of the exam hall or after you check your notes when you are out of the hall, why you could predict the questions you failed and the ones you passed, from research my simple answer is "clairevoyance" yes! humans can predict the future. This app banks on that premise and helps you amplify such gifts however there are some rules you must follow to increase the accuracy of your prediction. They are as follows:<br>
+    1.OBJECTIVITY: You must learn to be pure about your prediction, do not drive in your feelings or hopes to your assumption.Just do a strict evaluation of your just concluded exams confirming answers from marking schemes, jornals, notebooks, textbooks, and teachers. <BR>
+    2.SPEED:Its important that the gap of time between the moment you finish your exams to the moment you use this calculator should not be far apart so as to accurate assumptions
+    <br>This app can also be use to predetermine what your GP would look like even before u write the exams.Smart student dont hope for a good result they build a good result.<br>
+    This app was built as a result of the desire and passion to achieve a good result.
+    <br>THIS PROJECT IS EXCLUSIVE TO SAMUEL IBITOYE, JOSHUA AUDU and ANTONY UMORU@2019 PRODUCTION contact:Ibitoyesamuel25@gmail.com ,Abuja, Nigeria.
+      </BR></div> </div>
+    
+    <body background="imagesblur8.jpg" style="no-repeat fixed;
+        background-size: cover;
+        font-family:calibri;
+        font-size:30px;
+        height:2100px;
+    ">
+    
+    
+    <style type="text/css">
+    
+    .backgroundh{
+    background-color:white;
+    
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    width:100%;
+    height:10%;
+    position:fixed;
+    bottom:0;
+        box-shadow: 15px 0 35px rgba(0, 0, 0, 0.1), 0 -15px 35px rgba(0, 0, 0, 0.1);
+    }
+    
+    .containerg{ 
+    display: flex;
+        
+    flex-direction:column;
+    flex-wrap:nowrap;
+    
+    background:white;
+    margin:5%;
+    margin-left:3%;
+    width:100%;
+    padding:5;
+    text-align:center;}
+    
+    
+    .containerg img{
+        width: 56%;
+        
+    }
+    
+    
+    select{ width:180;
+            height:40;
+            border:1 solid #000;
+            position:relative;
+            font-size:20;
+    }
+    #courses select{width:40;
+            height:40;
+            border:1 solid #000;
+            position:absolute;
+            z-index:1;
+            font-size:25;
+            } 
+    #courses2 select{width:40;
+            height:40;
+            border:1 solid #000;
+            position:absolute;
+            z-index:1;
+            font-size:25;
+            } 
+    #go{display:none;}
+  
+    #text{ 
+    padding: 0 0.5em;
+    text-align: center;}
+    
+    button#close{position:absolute;
+        z-index: 1;
+        top:3px;
+        right:0;
+        background-color:red;
+        padding-top: 7px;
+        color:#fff;}
+    
+    div#about{width:0;
+        height:100%;
+        position:fixed;
+        z-index: 1;
+        top:0;
+        left:0;
+        background-color:111;
+        overflow-x:hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        color:#fff;
+    text-align: center;
+    opacity:60;
+    }
+    
+    #topnav{ background:#9900cc;height:32px;width: 650;}
+    
+    button#abo{float:right;
+    color:#9900CC;
+    padding:6px 9px;
+    font-size:20px;
+    background:#ffa500;
+    margin-right:0%;
+    margin-left:500%;
+    position: absolute;
+    
+    }
+    button#ref{float:left;
+    color:#9900CC;
+    padding:6px 9px;
+    font-size:20px;
+    background:#ffa500;
+    margin-left:0%;
+    margin-right:500%;
+    position: absolute;
+    }
+    
+    button{float:center;
+    color:#9900CC;
+    text-align: center;
+    padding:6px 10px;
+    text-decoration: none;
+    font-size:25px;
+    background:#9bcb3c;
+    }
+    
+    div#courses{font-size:150%;
+     }
+    
+    div#courses2{font-size:150%;
+     }
+    
+    div#main{
+        position: relative;
+        margin-right:10%;
+        margin-left:10%;
+        top:66px;
+        height:auto;
+        width:580px;
+        font-weight: bold;
+        background: rgba(255, 255, 255, 0.5);
+        text-align:center;
+    }
+    
+    input[type=checkbox]{width:30px;height:30px;}
+    
+    div#courses{display:none;}
+    div#courses2{display:none;}
+    
+    @media(min-width: 700px){
+    #topnav {width: 1500;}
+    div#main{
+        position: relative;
+        margin-right:10%;
+        margin-left:25%;
+        top:66px;
+        height:auto;
+        width:700px;
+        font-weight: bold;
+        background: rgba(255, 255, 255, 0.5);
+        text-align:center;
+    }
+    }
+    .myButton { 	box-shadow: 3px 4px 0px 0px #8a2a21; 	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%); 	background-color:#c62d1f; 	border-radius:18px; 	border:1px solid #d02718; 	display:inline-block; 	cursor:pointer; 	color:#ffffff; 	font-family:Arial; 	font-size:17px; 	padding:7px 25px; 	text-decoration:none; 	text-shadow:0px 1px 0px #810e05; } .myButton:hover { 	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%); 	background-color:#f24437; } .myButton:active { 	position:relative; 	top:1px; } 
+    
+    
+    </style>
+    
+      <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myhambugger").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        
+        
+        window.onclick = function(event) {
+          if (!event.target.matches(".ham")) {
+            var hambuggers = document.getElementsByClassName("hambugger-content");
+            var i;
+            for (i = 0; i < hambuggers.length; i++) {
+              var openhambugger = hambuggers[i];
+              if (openhambugger.classList.contains("show")) {
+                openhambugger.classList.remove("show");
+              }
+            }
+          }
+        }
+        </script>
+        <script type="text/Javascript">
+    function courserev(){
+    window.location.href ="http://dorm.com.ng/coursereview.php";
+    
+    }
+    </script>
+    
+    <script type="text/Javascript">
+    function texter(){
+    window.location.href ="http://dorm.com.ng/texter.php";
+    
+    
+    }
+    </script>
+    
+    
+    <script>
+    function functionsend(){ 
+    var dgebi=document.getElementById;
+    
+    var i11=dgebi("i1").checked;
+    if (i11==true){dgebi("i1"). value=1; dgebi(i1).style.color=yellow}
+    if (i11==false){dgebi(i1). value=0}
+    
+    
+    var i22=document.getElementById("i2").checked;
+    if (i22==true){dgebi("i2"). value=1; dgebi(i2).style.color=yellow}
+    if (i22==false){dgebi(i2). value=0}
+    
+    var i33=document.getElementById("i3).checked;
+    if (i33==true){dgebi("i3"). value=1; dgebi(i3).style.color=yellow}
+    if (i33==false){dgebi(i3). value=0}
+    
+    var i44=document.getElementById("i4").checked;if (i44==true){dgebi("i4"). value=1; dgebi(i4).style.color=yellow}
+    if (i44==false){dgebi(i4). value=0}
+    var i55=document.getElementById("i5").checked;
+    if (i55==true){dgebi("i5"). value=1; dgebi(i5).style.color=yellow}
+    if (i55==false){dgebi(i5). value=0}
+    var rate= dgebi(i1). value + dgebi(i2). value + dgebi(i3). value + dgebi(i4). value + dgebi(i5). value;
+    dgebi(rat).innerHTML=(rate);
+    } 
+    </script>
+    <script>
+    function myfunctiono(){
+    
+    document.getElementById("about").style.width="500px";}
+    </script>
+    
+    <script>
+    function myfunctionc(){
+    
+    document.getElementById("about").style.width="0px";}
+    </script>
+    
+    
+    <script>
+    
+    
+    function myfunction(){
+        var science=document.getElementById("sci").checked;
+        var arts=document.getElementById("art").checked;
+    if (science==true){var x =document.getElementById("courses"); var xy =document.getElementById("print");}
+    
+    if (arts==true){var x =document.getElementById("courses2"); var xy =document.getElementById("print");}
+    
+    var inputval =document.getElementById("name").value;
+    
+    document.getElementById("hello").innerHTML=( 'Hello '  + inputval + ', Please choose the courses you offer'); 
+    
+    
+    if (x.style.display=="none"){x.style.display="block";}else{x.style.display="block"; }
+    
+    
+    if (xy.style.display=="none"){xy.style.display="block";}else{xy.style.display="none"; }
+    
+    }
+        </script>
+    
+        
+        <script>
+    
+    function myfunction2(){
+        
+    var xs =document.getElementById("courses");
+    if (xs.style.display=="block"){xs.style.display="none";}else{xs.style.display="none"; }
+    
+    var xss =document.getElementById("courses2");
+    if (xss.style.display=="block"){xss.style.display="none";}else{xss.style.display="none"; }
+    
+    
+    var xx =document.getElementById("go");
+    if (xx.style.display=="none"){xx.style.display="block";}else{xx.style.display="block"; }
+    
+    
+    var pos101func =document.getElementById("pos101").checked;
+    if (pos101func==true){var pos1011 =document.getElementById("pos101").value; var selectpos1011 =document.getElementById("selectpos101").value;  };
+    if (pos101func==false){var pos1011 =0; var selectpos1011 =0;  }
+    
+    var pos103func =document.getElementById("pos103").checked;
+    if (pos103func==true){var pos1031 =document.getElementById("pos103").value; var selectpos1031 =document.getElementById("selectpos103").value;  };
+    if (pos103func==false){var pos1031 =0; var selectpos1031 =0;  }
+    
+    
+    var pos105func =document.getElementById("pos105").checked;
+    if (pos105func==true){var pos1051 =document.getElementById("pos105").value; var selectpos1051 =document.getElementById("selectpos105").value;  };
+    if (pos101func==false){var pos1051 =0; var selectpos1051 =0;  }
+    
+    
+    var mth111func =document.getElementById("mth111").checked;
+    if(mth111func==true){var mth1111 =document.getElementById("mth111").value; var selectmth1111 =document.getElementById("selectmth111").value;  };
+    if (mth111func==false){var mth1111 =0; var selectmth1111 =0;  }
+    
+    
+    var mth113func =document.getElementById("mth113").checked;
+    if (mth113func==true){var mth1131 =document.getElementById("mth113").value; var selectmth1131 =document.getElementById("selectmth113").value;  }
+    if (mth113func==false){var mth1131 =0; var selectmth1131 =0;  }
+    
+    
+    var phy111func =document.getElementById("phy111").checked;
+    if (phy111func==true){var phy1111 =document.getElementById("phy111").value; var selectphy1111 =document.getElementById("selectphy111").value;  }
+    if (phy111func==false){var phy1111 =0; var selectphy1111 =0;  }
+    
+    
+    var csc101func =document.getElementById("csc101").checked;
+    if (csc101func==true){var csc1011 =document.getElementById("csc101").value; var selectcsc1011 =document.getElementById("selectcsc101").value;  }
+    if (csc101func==false){var csc1011 =0; var selectcsc1011=0;  }
+    
+    var chem161func =document.getElementById("chm161").checked;
+    if (chem161func==true){var chm1611 =document.getElementById("chm161").value; var selectchm1611 =document.getElementById("selectchm161").value;  }
+    if (chem161func==false){var chm1611 =0; var selectchm1611 =0;  }
+    
+    
+    var bio111func =document.getElementById("bio111").checked;
+    if (bio111func==true){var bio1111 =document.getElementById("bio111").value; var selectbio1111 =document.getElementById("selectbio111").value;  }
+    if (bio111func==false){var bio1111 =0; var selectbio1111 =0;  }
+    
+    
+    var gst103func =document.getElementById("gst103").checked;
+    if (gst103func==true){var gst1031 =document.getElementById("gst103").value; var selectgst1031 =document.getElementById("selectgst103").value;  }
+    if (gst103func==false){var gst1031 =0; var selectgst1031 =0;  }
+    
+    
+    var gst107func =document.getElementById("gst107").checked;
+    if (gst107func==true){var gst1071 =document.getElementById("gst107").value; var selectgst1071 =document.getElementById("selectgst107").value;  }
+    if (gst107func==false){var gst1071 =0; var selectgst1071 =0;  }
+    
+    var g1st103func =document.getElementById("g1st103").checked;
+    if (g1st103func==true){var g1st1031 =document.getElementById("g1st103").value; var s1electgst1031 =document.getElementById("s1electgst103").value;  }
+    if (g1st103func==false){var g1st1031 =0; var s1electgst1031 =0;  }
+    
+    var g1st107func =document.getElementById("g1st107").checked;
+    if (g1st107func==true){var g1st1071 =document.getElementById("g1st107").value; var s1electgst1071 =document.getElementById("s1electgst107").value;  }
+    if (g1st107func==false){var g1st1071 =0; var s1electgst1071 =0;  }
+    
+    
+    var g1st101func =document.getElementById("g1st101").checked;
+    if (g1st101func==true){var g1st1011 =document.getElementById("g1st101").value; var s1electgst1011 =document.getElementById("s1electgst101").value;  }
+    if (g1st101func==false){var g1st1011 =0; var s1electgst1011 =0;  }
+    
+    
+    var phy131func =document.getElementById("phy131").checked;
+    if (phy131func==true){var phy1311 =document.getElementById("phy131").value; var selectphy1311 =document.getElementById("selectphy131").value;  }
+    if (phy131func==false){var phy1311 =0; var selectphy1311 =0;  }
+    
+    
+    var phy161func =document.getElementById("phy161").checked;
+    if (phy161func==true){var phy1611 =document.getElementById("phy161").value; var selectphy1611 =document.getElementById("selectphy161").value;  }
+    if (phy161func==false){var phy1611 =0; var selectphy1611 =0;  }
+    
+    var gst101func =document.getElementById("gst101").checked;
+    if (gst101func==true){var gst1011 =document.getElementById("gst101").value; var selectgst1011 =document.getElementById("selectgst101").value;  }
+    if (gst101func==false){var gst1011 =0; var selectgst1011 =0;  }
+    
+    var chm113func =document.getElementById("chm113").checked;
+    if (chm113func==true){var chm1131 =document.getElementById("chm113").value; var selectchm1131 =document.getElementById("selectchm113").value;  }
+    if (chm113func==false){var chm1131 =0; var selectchm1131 =0;  }
+    
+    
+    var soc101func =document.getElementById("soc101").checked;
+    if (soc101func==true){var soc1011 =document.getElementById("soc101").value; var selectsoc1011 =document.getElementById("selectsoc101").value;  }
+    if (soc101func==false){var soc1011 =0; var selectsoc1011 =0;  }
+    
+    var s1oc101func =document.getElementById("s1oc101").checked;
+    if (s1oc101func==true){var s1oc1011 =document.getElementById("s1oc101").value; var s1electsoc1011 =document.getElementById("s1electsoc101").value;  }
+    if (s1oc101func==false){var s1oc1011 =0; var s1electsoc1011 =0;  }
+    
+    
+    
+    var eco101func =document.getElementById("eco101").checked;
+    if (eco101func==true){var eco1011 =document.getElementById("eco101").value; var selecteco1011 =document.getElementById("selecteco101").value;  }
+    if (eco101func==false){var eco1011 =0; var selecteco1011 =0;  }
+    
+    var e1co101func =document.getElementById("e1co101").checked;
+    if (e1co101func==true){var e1co1011 =document.getElementById("e1co101").value; var s1electeco1011 =document.getElementById("s1electeco101").value;  }
+    if (e1co101func==false){var e1co1011 =0; var s1electeco1011 =0;  }
+    
+    var his101func =document.getElementById("his101").checked;
+    if (his101func==true){var his1011 =document.getElementById("his101").value; var selecthis1011 =document.getElementById("selecthis101").value;  }
+    if (his101func==false){var his1011 =0; var selecthis1011 =0;  }
+    
+    var his103func =document.getElementById("his103").checked;
+    if (his103func==true){var his1031 =document.getElementById("his103").value; var selecthis1031 =document.getElementById("selecthis103").value;  }
+    if (his103func==false){var his1031 =0; var selecthis1031 =0;  }
+    
+    var his105func =document.getElementById("his105").checked;
+    if (his105func==true){var his1051 =document.getElementById("his105").value; var selecthis1051 =document.getElementById("selecthis105").value;  }
+    if (his105func==false){var his1051 =0; var selecthis1051 =0;  }
+    
+    var his109func =document.getElementById("his109").checked;
+    if (his109func==true){var his1091 =document.getElementById("his109").value; var selecthis1091 =document.getElementById("selecthis109").value;  }
+    if (his109func==false){var his1091 =0; var selecthis1091 =0;  }
+    
+    
+    var his111func =document.getElementById("his111").checked;
+    if (his111func==true){var his1111 =document.getElementById("his111").value; var selecthis1111 =document.getElementById("selecthis111").value;  }
+    if (his111func==false){var his1111 =0; var selecthis1111 =0;  }
+    
+    
+    var sta111func =document.getElementById("sta111").checked;
+    if (sta111func==true){var sta1111 =document.getElementById("sta111").value; var selectsta1111 =document.getElementById("selectsta111").value;  }
+    if (sta111func==false){var sta1111 =0; var selectsta1111 =0;  }
+    
+    var bio113func =document.getElementById("bio113").checked;
+    if (bio113func==true){var bio1131 =document.getElementById("bio113").value; var selectbio1131 =document.getElementById("selectbio113").value;  }
+    if (bio113func==false){var bio1131 =0; var selectbio1131 =0;  }
+    
+    var gey101func =document.getElementById("gey101").checked;
+    if (gey101func==true){var gey1011 =document.getElementById("gey101").value; var selectgey1011 =document.getElementById("selectgey101").value;  }
+    if (gey101func==false){var gey1011 =0; var selectgey1011 =0;  }
+    
+    
+    
+    
+    
+    
+    
+    var m1=mth1111*selectmth1111
+    var m2=mth1131*selectmth1131
+    var m3=phy1111*selectphy1111
+    var m4=chm1611*selectchm1611
+    var m5=bio1111*selectbio1111
+    var m6=gst1031*selectgst1031
+    var m7=gst1071*selectgst1071
+    var m8=phy1311*selectphy1311  
+    var m9= phy1611*selectphy1611
+    var m10= csc1011*selectcsc1011
+    var m11= gst1011*selectgst1011
+    var m12=chm1131*selectchm1131
+    var m13=soc1011*selectsoc1011
+    var m14=sta1111*selectsta1111
+    var m15=eco1011*selecteco1011
+    var m16=bio1131*selectbio1131
+    var m17=gey1011*selectgey1011
+    var m18=pos1011*selectpos1011
+    var m19=pos1031*selectpos1031
+    var m20=pos1051*selectpos1051
+    var m21=g1st1071*s1electgst1071
+    var m22=g1st1031*s1electgst1031
+    var m23=g1st1011*s1electgst1011
+    m24=e1co1011*s1electeco1011
+    m25=s1oc1011*s1electsoc1011
+    m26=his1011*selecthis1011
+    m27=his1031*selecthis1031
+    m28=his1051*selecthis1051
+    m29=his1091*selecthis1091
+    m30=his1111*selecthis1111
+    
+    var s1= m1+m2+m3+m4+m5+m6+m7+m8+m9+m10+m11+m12+m13+m14+m15+m16+m17+m18+m19+m20+m21+m22+m23+m24+m25+m26+m27+m29+m30;
+    var load=document.getElementById("dept").value;
+    var gp=s1/load
+    
+    var na=document.getElementById("name").value
+    
+    
+    
+    document.getElementById("to").innerHTML=('HEY '+na+'Your GP IS >> '+ gp +' Welldone.');
+    }
+    
+    </script>
+    
+    </html>
+    </html>
